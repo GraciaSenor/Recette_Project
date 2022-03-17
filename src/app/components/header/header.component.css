@@ -1,0 +1,31 @@
+contain {
+    height: 10em;
+    width: 100%;
+}
+
+.nav {
+    background-color: rgb(30, 30, 31);
+    height: 5em;
+    width: 100%;
+}
+
+.rech {
+    height: 4em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.rech input {
+    background: white url(http://hp-proliant.co.uk/qual_images/mob-search-icon.png) no-repeat 9px center;
+    padding: 9px 10px 9px 32px;
+    width: 400px;
+    height: 3em;
+    border-radius: 30px 30px 30px 30px;
+    border: none;
+}
+
+.rech input:focus {
+    width: 500px;
+    background-color: white;
+}

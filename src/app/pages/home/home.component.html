@@ -1,0 +1,92 @@
+<body>
+    <div class="global">
+        <div class="contain">
+            <div class="nav"></div>
+            <div class="rech">
+                <form class="form-inline ">
+                    <input class="form-control mr-sm-2 " type="text " placeholder="Search " aria-label="Search " [(ngModel)]="filterTerm">
+                </form>
+            </div>
+        </div>
+        <div class="contain-fluid">
+            <div class="item1">
+                <a href="">
+                    <div class="icon">
+                        <img src="../../../assets/img/icons8-hamburger-48.png" alt="" style="width: 500px;">
+                    </div>
+                    <div class="txt">
+                        <h2>American</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="item2">
+                <a href="">
+                    <div class="icon">
+                        <img src="../../../assets/img/icons8-curry-rice-48.png" alt="" style="width: 500px;">
+                    </div>
+                    <div class="txt">
+                        <h2>Indian</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="item3">
+                <a href="">
+                    <div class="icon">
+                        <img src="../../../assets/img/icons8-bol-de-riz-100.png" alt="" style="width: 500px;">
+                    </div>
+                    <div class="txt">
+                        <h2>African</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="item4">
+                <a href="">
+                    <div class="icon">
+                        <img src="../../../assets/img/icons8-spaghetti-64.png" alt="" style="width: 500px;">
+                    </div>
+                    <div class="txt">
+                        <h2>Chinese</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="item5">
+                <a href="">
+                    <div class="icon">
+                        <img src="../../../assets/img/icons8-tacos-64.png" alt="" style="width: 500px;">
+                    </div>
+                    <div class="txt">
+                        <h2>Mexican</h2>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section1">
+        <div class="head">
+            <h2>Recettes Popular</h2>
+        </div>
+        <div class="card">
+            <a href="" *ngFor="let recipe of  recipes ">
+                <img src="{{recipe.image}}" alt="" style="width: 350px;">
+            </a>
+        </div>
+    </div>
+    <div class="section" id="section2">
+        <div class="head">
+            <h2>Végétarians</h2>
+        </div>
+        <div class="card">
+
+        </div>
+    </div>
+    <div class="section" id="section3">
+        <div class="head">
+            <h2>Recettes Similaires</h2>
+        </div>
+        <div class="card">
+
+        </div>
+    </div>
+
+    <app-footer></app-footer>
+</body>

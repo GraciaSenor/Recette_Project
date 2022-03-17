@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.global {
+    height: 27em;
+}
+
+.contain {
+    height: 10em;
+    width: 100%;
+}
+
+.nav {
+    background-color: white;
+    height: 4em;
+    width: 100%;
+}
+
+.rech {
+    height: 4em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.rech input {
+    background: white url(http://hp-proliant.co.uk/qual_images/mob-search-icon.png) no-repeat 9px center;
+    padding: 9px 10px 9px 32px;
+    width: 400px;
+    height: 3em;
+    border-radius: 30px 30px 30px 30px;
+    border-style: solid;
+    border-color: black;
+}
+
+.rech input:focus {
+    width: 500px;
+    background-color: white;
+}
+
+.contain-fluid {
+    height: 10em;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item1 {
+    height: 10em;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item2 {
+    height: 10em;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item3 {
+    height: 10em;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item4 {
+    height: 10em;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item5 {
+    height: 10em;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    height: 5em;
+    width: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt {
+    height: 2em;
+    width: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: black;
+    opacity: 0.7;
+}
+
+.btn {
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px 35px 35px 35px;
+    border-style: solid;
+    border-color: rgb(158, 5, 5);
+    border-width: 2px;
+}
+
+.btn:hover {
+    background-color: rgb(158, 5, 5);
+    color: white;
+}
+
+.section {
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head {
+    height: 4em;
+    width: 80%;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    height: 20em;
+    width: 95%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+
+/*Les medias query*/
+
+@media (max-width:700px) {
+    .contain-fluid {
+        height: 18em;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .item1 {
+        width: 50%;
+        height: 2.5rem;
+    }
+    .item2 {
+        width: 50%;
+        height: 2.5rem;
+    }
+    .item3 {
+        width: 50%;
+        height: 2.5rem;
+    }
+    .item4 {
+        width: 50%;
+        height: 2.5rem;
+    }
+    .item5 {
+        width: 50%;
+        height: 2.5rem;
+    }
+    .rech input {
+        width: 250px;
+    }
+    .rech input:focus {
+        width: 300px;
+    }
+}
